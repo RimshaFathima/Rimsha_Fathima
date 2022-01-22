@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RIMSHA FATHIMA</title>
+    <link rel="stylesheet" href="./static/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+        body{
+          text-align: center;
+          font-family:'Berkshire Swash', cursive;
+          background-image:url(./static/backdrop.jpg);
+          background-size:cover;
+          background-repeat:no-repeat;
+       }
+     nav{
+         background-color:#ffa600;
+         position:relative;
+         height: 70px;
+     }
+     nav > ul{
+         list-style-type: none;
+     }
+     nav > ul > li{
+         display: inline;
+         padding: 15px;
+     }
+     nav > ul > li > a{
+         text-decoration: none;
+         color:black;
+         font-size: 27;
+         padding: 30px;
+         float: right;
+     }
+     .dropdown{
+         position: relative;
+         display: inline-block;
+         text-align: right;
+        }
+     .btn{
+        padding: 10px;
+        font-size: 25px;
+        border: none;
+        margin-left: 500px;
+        font-family:'Berkshire Swash', cursive;
+        text-decoration: none;
+        background-color: #ffa600;
+        padding-top: 30px;
+    }
+
+     .dropdowncontent{
+           display: none;
+           background-color: crimson;
+           position: absolute;
+           z-index: 1;
+           min-width: 160px;
+           font-size: 40px;
+           margin-left: 500px;
+           font-family: 'Berkshire Swash', cursive;
+     }
+     .dropdowncontent a {
+         text-decoration: none;
+         color:black; 
+         display: block;
+         padding: 10px;
+     }
+     .dropdown:hover .dropdowncontent{display: block;}
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    a:hover{
+        color: #1616c0;
+    }
+    img{
+        width: 550px;
+        border-radius: 50%;
+        float: left;
+        padding-left: 50px;
+        padding-top: 40px;
+        border: none;
+        
+    }
+    button{
+        text-decoration: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        background-color: cadetblue;
+}
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 27px;
+        font-family:'Berkshire Swash', cursive;;
+  
+}
+.btn:hover{
+         color: #1616c0;
+         cursor: pointer;
+}
+h2{
+  color: crimson;
+}
+.dropdowncontent :hover{
+    background-color:cadetblue ;
+}
+ 
+    </style>
+</head>
+<body>
+    <header>
+      <nav>
+        <ul>
+        <div class="dropdown">
+            <button class="btn">Projects</button>
+            <div class="dropdowncontent">
+            <a href="./firstquizhtml.html">Quizes</a>
+            <a href="./feedback.html">Feedback</a>
+            <a href="./essay.html">Essay</a>
+            <a href="./story.html">Story</a>
+            </div>
+            </div>
+            <li><a href="./register.html">Sign up</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./acheivemnts.html">Acheivements</a></li>
+            </ul>
+    </nav>
+</header>
+<br><br>
+<img src="./static/1641224105432.jpeg" alt="RIMSHA FATHIMA">
+<button type="submit"><a href="./myself.html">KNOW ABOUT THE CREATOR</a></button>
+<h1>Click to know more about the creator</h1>
+<h2>So this is my Very First Website and I have included a lot of fascinating things. I'm looking forward to make more Advanced websites in the Future</h2>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-image: url(./crypto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    
+}
+h1{
+    color:white;
+    font-size: 30px;
+  }
+h2{
+    color: aqua;
+    text-align: center;
+    font-size: 35px;
+   } 
+form{
+    color: yellow;
+}  
